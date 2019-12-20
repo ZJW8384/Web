@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    overflow:scroll;
+}
+#div-left{
+    font-size: 14px;
+    padding-left: 40px;
+    line-height: 30px;
+    width: 240px;
+    height: 230px;
+    /*border: 1px solid black;*/
+}
+#div-right{
+    font-size: 14px;
+    line-height: 30px;
+    position: relative;
+    top: -220px;
+    left: 300px;
+    width: 200px;
+    height: 170px;
+    /*border: 1px solid black;*/
+}
+.color-red{
+    color: red;
+}
+#div-img{
+    position: relative;
+    top: -400px;
+    float:right;
+    width: 180px;
+    height: 220px;
+    border:1px solid black;
+}
+#bkinfo{
+    border: 1px solid black;
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+#hr{
+    display: block;
+    position: relative;
+    color:white;
+    font-family: 仿宋;
+    font-weight: bolder;
+    top: -80px;
+    height: 20px;
+    width: 800px;
+    background-color: dimgrey;
+}
+a{
+    text-decoration:none;
+    color: green;
+}
+#but{
+    position: relative;
+    top: -60px;
+    left: 400px;
+}
+#but>button{
+    position: relative;
+    left: 100px;
+    clear: both;
+    margin-left: 50px;
+}
+.close{
+    text-align: center;
+    margin-top: -20px;
+    float: right;
+    display: block;
+    width: 25px;
+    height: 25px;
+    cursor : pointer;
+
+}
+span>button:hover{
+    background-color: red;
+    color: white;
+}
+#bksadd{
+    clear: both;
+    /*border: 1px solid black;*/
+    position: relative;
+    top: -200px;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    z-index: 3;
+}
+#more-message>th,td{
+    width: 200px;
+    height: 50px;
+}
+#more-message{
+    position: relative;
+    left: 270px;
+    top: -200px;
+    clear: both;
+}
+#delete{
+    z-index: 3;
+    clear: both;
+    position:relative;
+    top: -180px;
+    left: 300px;
+    width: 200px;
+    padding-top: 10px;
+    height: 80px;
+    margin:0 0 30px 0;
+    background-color: whitesmoke;
+}
+#evaluate{
+    width: 730px;
+    margin: 0 auto;
+    /*border: 1px solid black;*/
+    position: relative;
+    top: -150px;
+    left: -50px;
+}
+#texts{
+    width: 800px;
+    margin: 20px 20px 20px 20px;
+    height: 100px;
+}
+#evaluate>button{
+    margin-left: 50px;
+}

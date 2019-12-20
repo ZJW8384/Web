@@ -1,0 +1,43 @@
+body{
+    background-image: url(/png/login.jpg);
+    background-size: 1400px 850px;
+}
+.button1{
+    position: absolute;
+    top: 285px;
+    left: 150px;
+}
+.button2{
+    position: absolute;
+
+    top: 285px;
+    /*left: 90px;*/
+    left: 250px;
+}
+.forms{
+    width: 350px;
+    height: 250px;
+    margin-left: 200px;
+    margin-top: 100px;
+    padding-top: 170px;
+    padding-left: 100px;
+    position: relative;
+    left: 200px;
+    top: -10px;
+    background-color: rgba(255,255,255,0.1);
+    border: #6ba382 1px solid;
+    border-radius:30px;
+}
+.b_left{
+    !important;padding-left: -10px;
+
+}
+#ss,#aa{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: red;
+    position: relative;
+    top: -15px;
+    left: 50px;
+}

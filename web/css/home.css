@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    display: block;
+    width: 600px;
+    height: 50px;
+    margin:0 auto;
+    background-color: #00bbff;
+
+}
+#header>a{
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: bolder;
+    margin-left: 180px;
+    text-decoration:none;
+}
+
+#div-table{
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+    width: 700px;
+    height: 200px;
+    padding: 50px;
+}
+#message{
+    margin-left: 50px;
+}
+#money{
+    font-weight: bolder;
+    position: relative;
+    top: 60px;
+    left: 100px;
+}
+#resets{
+    position: relative;
+    top: -200px;
+    left: 100px;
+}
+#close{
+    position: relative;
+    top: -20px;
+    text-align: center;
+    float: right;
+    display: block;
+    width: 25px;
+    height: 25px;
+    cursor : pointer;
+}
+#rest_pass{
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 450px;
+    height: 200px;
+    background-color: #6ba382;
+}
+.up{
+    position: relative;
+    top: -15px;
+}
+span>button:hover{
+    background-color: red;
+}
+/*#new_pass{*/
+/*    position: relative;*/
+/*    top: -20px;*/
+/*}*/
